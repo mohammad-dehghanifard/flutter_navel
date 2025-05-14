@@ -36,10 +36,24 @@ class $AssetsImageGen {
   ];
 }
 
+class $AssetsSvgGen {
+  const $AssetsSvgGen();
+
+  /// File path: assets/svg/location.svg
+  String get location => 'assets/svg/location.svg';
+
+  /// File path: assets/svg/rightarrow.svg
+  String get rightarrow => 'assets/svg/rightarrow.svg';
+
+  /// List of all assets
+  List<String> get values => [location, rightarrow];
+}
+
 class Assets {
   const Assets._();
 
   static const $AssetsImageGen image = $AssetsImageGen();
+  static const $AssetsSvgGen svg = $AssetsSvgGen();
 }
 
 class AssetGenImage {

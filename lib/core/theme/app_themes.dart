@@ -10,10 +10,12 @@ class AppThemes {
     scaffoldBackgroundColor: AppColors.scaffoldDarkColor,
     colorScheme: ColorScheme.dark(
       primary: AppColors.darkPrimaryColor,
-      primaryContainer: AppColors.darkMediumGreenColor
+      primaryContainer: AppColors.darkMediumGreenColor,
+      secondaryContainer: AppColors.darkGreenColor
     ),
       textTheme: TextTheme(
         titleMedium: TextStyle(fontSize: 26,color: AppColors.darkPrimaryColor,fontWeight: FontWeight.bold),
+        titleLarge: TextStyle(fontSize: 32,fontWeight: FontWeight.bold,color: AppColors.darkCreamColor),
         bodySmall: TextStyle(fontSize: 10,color: AppColors.darkCreamColor,fontWeight: FontWeight.w300,fontFamily: GoogleFonts.raleway().fontFamily)
       )
   );
