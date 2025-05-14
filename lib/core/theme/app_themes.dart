@@ -12,6 +12,9 @@ class AppThemes {
       primary: AppColors.darkPrimaryColor,
       primaryContainer: AppColors.darkMediumGreenColor
     ),
-      textTheme: TextTheme()
+      textTheme: TextTheme(
+        titleMedium: TextStyle(fontSize: 26,color: AppColors.darkPrimaryColor,fontWeight: FontWeight.bold),
+        bodySmall: TextStyle(fontSize: 10,color: AppColors.darkCreamColor,fontWeight: FontWeight.w300,fontFamily: GoogleFonts.raleway().fontFamily)
+      )
   );
 }
